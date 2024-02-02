@@ -30,3 +30,8 @@ resource "google_storage_bucket" "week-1-de-bucket" {
     }
   }
 }
+
+resource "google_bigquery_dataset" "week-1-de-dataset" {
+  dataset_id = var.bq_dataset_name
+  location   = var.location
+}

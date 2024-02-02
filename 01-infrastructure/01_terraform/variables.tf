@@ -27,3 +27,7 @@ variable "dataset_name" {
   type = string
   default = "zoomcamp_dataset"
 }
+variable "bq_dataset_name" {
+  description = "BigQuery Dataset Name for Week-1"
+  default     = "week_1_de_dataset"
+}
